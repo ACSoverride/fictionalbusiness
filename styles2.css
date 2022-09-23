@@ -1,0 +1,18 @@
+.background2 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/db/Operation_Sci-Fi_Con_2015_WH40K.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(5px);
+    height: 100%;
+    width: 100%;
+}
+body, html {
+    height: 100%;
+}
+.textStuff2 {
+    position: relative;
+    top: -100%;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
