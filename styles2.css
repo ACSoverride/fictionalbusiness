@@ -3,16 +3,27 @@
     background-repeat: no-repeat;
     background-position: center;
     filter: blur(5px);
-    height: 200vh;
+    height: 100vh;
     width: 100vw;
 }
 body, html {
-    height: 100%;
+    height: 100vh;
 }
 .textStuff2 {
     position: relative;
-    top: -200%;
+    top: -100%;
     color: white;
     text-align: center;
     font-size: xx-large;
+}
+@media screen and (max-width: 600px){
+    .background{
+        height: 200vh;
+    }
+    .textStuff{
+        top: -200%;
+    }
+    .body,html {
+        height: 100vh;
+    }
 }
